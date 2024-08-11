@@ -135,7 +135,6 @@ body {
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
-    margin-bottom: 100px;
     text-align: center;
     width: 100%;
     font-size: 45px;
@@ -149,6 +148,8 @@ body {
       justify-content: center;
       width: 100%;
       flex-wrap: wrap;
+      margin-bottom: 250px;
+      margin-top: 100px;
     }
 
     .skills_hard_title { /*Блок "Жесткие*/
@@ -197,6 +198,7 @@ body {
     color: #ffffff;
     margin: auto;
   }
+
   .skills_soft_text_sep {
     position: relative;
     left: 290px;
@@ -205,4 +207,42 @@ body {
     line-height: 1.5;
     flex-basis: 70%;
     margin-top: 50px;
+  }
+
+  .life_path_box { /*Описание блока "Путь"*/
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 250px;
+  }
+
+  .life_path_title { /*Блок "Путь"*/
+    color: #a8a8a8;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 65px;
+    flex-basis: 30%;
+    margin-left: 20%;
+    margin-right: 20px;
+    max-width: 100px; 
+    white-space: nowrap;  
+  }
+
+  .life_path_text { /*Описание блока "Путь"*/
+    position: relative;
+    left: 40px;
+    color: #a8a8a8;
+    font-size: 20px;
+    line-height: 1.5;
+    flex-basis: 70%;
+    margin-top: 50px;
+  }
+
+  #life_path_text_title { /*Описание блока "Путь"*/
+    font-size: 32px;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    margin: auto;
   }
