@@ -224,7 +224,7 @@ body {
     text-transform: uppercase;
     margin-top: 65px;
     flex-basis: 30%;
-    margin-left: 20%;
+    margin-left: 18%;
     margin-right: 20px;
     max-width: 100px; 
     white-space: nowrap;  
@@ -232,7 +232,7 @@ body {
 
   .life_path_text { /*Описание блока "Путь"*/
     position: relative;
-    left: 40px;
+    left: 60px;
     color: #a8a8a8;
     font-size: 20px;
     line-height: 1.5;
